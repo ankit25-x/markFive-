@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root{
-    --primary-color: #10B981;
+    --primary-color: #1E3A8A;
     --dark-gray: #4B5563;
     --light-gray: #D1D5DB;
+    --pink-rose:#E7717D;
+    --bright-cyan: #66FCF1;
+    --light-green: #EFF6FF;
 }
 
 body{
@@ -82,7 +85,7 @@ body{
 }
 
 .showman .showman-img{
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -101,6 +104,11 @@ body{
 
 .section{
     padding: 2rem;
+    
+}
+
+.section p{
+    font-weight: 550;
 }
 
 .section h1{
@@ -108,7 +116,7 @@ body{
 }
 
 .lg{
-    background-color: var(--light-gray);
+    background-color: var(--light-green);
 }
 
 /**footer**/
