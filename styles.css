@@ -26,6 +26,11 @@ body{
 
 }
 
+.spaces{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -88,16 +93,22 @@ body{
     max-width: 300px;
     display: block;
     margin: auto;
+    
 }
 
 .showman .showman-heading{
     padding-top: 1rem;
     color: var(--dark-gray);
     text-align: center;
+  
 }
 
 .showman .showman-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+.showman .showman-heading .wt{
+    font-weight: bolder;
 }
 
 /**sections**/
